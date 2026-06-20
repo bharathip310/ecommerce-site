@@ -54,7 +54,7 @@ export function AdminProducts() {
     try {
       const payload = {
         ...productData,
-        price: Number(productData.price),
+        price: productData.price,
         stock: Number(productData.stock)
       };
 
